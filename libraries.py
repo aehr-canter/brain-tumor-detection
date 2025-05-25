@@ -8,11 +8,11 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 import logging
 import random
 
-import tensorflow as tf
-from tensorflow import keras
-from keras._tf_keras.keras.preprocessing.image import ImageDataGenerator
-from keras._tf_keras.keras.applications import DenseNet169
-from keras._tf_keras.keras.models import Model
-from keras._tf_keras.keras.optimizers import Adam
-from keras._tf_keras.keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
-from keras._tf_keras.keras.layers import Dense, GlobalAveragePooling2D, Dropout
+#import tensorflow as tf
+import keras
+from keras.preprocessing.image import ImageDataGenerator
+from keras.applications import DenseNet169
+from keras.models import Model
+from keras.optimizers import Adam
+from keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
+from keras.layers import Dense, GlobalAveragePooling2D, Dropout
