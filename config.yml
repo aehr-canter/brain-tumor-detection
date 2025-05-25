@@ -1,0 +1,26 @@
+dataset:
+  main_directory: 'path/to/your/dataset' # Replace with actual path
+  yes_directory_name: 'yes'
+  no_directory_name: 'no'
+
+model:
+  img_height: 224
+  img_width: 224
+  batch_size: 32
+  epochs: 40
+  fine_tune_epochs: 15
+  learning_rate: 0.0001
+  fine_tune_learning_rate: 1e-5
+  base_model_weights: 'imagenet'
+  fine_tune_layers: 20 # Number of layers to fine-tune in the base model
+
+training:
+  val_split: 0.2
+  seed: 42
+
+callbacks:
+  checkpoint_filepath: 'densenet169_brain_tumor.h5'
+  early_stopping_patience: 10
+  reduce_lr_patience: 5
+  reduce_lr_factor: 0.2
+  reduce_lr_min_lr: 1e-6
