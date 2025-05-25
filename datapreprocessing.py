@@ -1,7 +1,4 @@
-import os
-import numpy as np
-import tensorflow as tf #python3 -m pip install 'tensorflow[and-cuda]'
-import random
+from libraries import *
 
 seed = 42
 random.seed(seed)
