@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 import logging
 import random
 
-#import tensorflow as tf
+import tensorflow as tf
 import keras
 from keras.preprocessing.image import ImageDataGenerator
 from keras.applications import DenseNet169
