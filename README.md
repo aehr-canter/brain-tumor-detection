@@ -1,6 +1,6 @@
 # Brain Tumor Detection: Empowering Health Insights with AI 
 
-![Brain Tumor Detection Banner](path/to/your/banner_image.png)
+![Brain Tumor Detection Banner](banner.png)
 
 Welcome to the Brain Tumor Detection project! This initiative leverages the power of deep learning, specifically the DenseNet169 architecture, to classify brain MRI images as either containing a tumor or being tumor-free. Our goal is to contribute to faster, more accessible, and potentially more accurate initial screening processes, ultimately supporting better health outcomes.
 
