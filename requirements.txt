@@ -1,5 +1,5 @@
 tensorflow>=2.x
-keras>=2.x # Or just tensorflow for recent versions
+keras>=2.x
 numpy>=1.x
 matplotlib>=3.x
 seaborn>=0.x
