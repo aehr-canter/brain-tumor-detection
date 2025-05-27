@@ -6,12 +6,12 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 import logging
-import random
 import unittest
 import shutil
+import random
 
 import tensorflow as tf
-import keras
+from keras
 from keras.preprocessing.image import ImageDataGenerator
 from keras.applications import DenseNet169
 from keras.models import Model
