@@ -11,7 +11,7 @@ import shutil
 import random
 
 import tensorflow as tf
-from keras
+from tensorflow import keras
 from keras.preprocessing.image import ImageDataGenerator
 from keras.applications import DenseNet169
 from keras.models import Model
