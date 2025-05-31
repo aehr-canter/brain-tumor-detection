@@ -11,8 +11,9 @@ import shutil
 import random
 
 import tensorflow as tf
-from tensorflow import keras
+import keras as keras
 from keras.preprocessing.image import ImageDataGenerator
+from keras.utils import set_random_seed
 from keras.applications import DenseNet169
 from keras.models import Model
 from keras.optimizers import Adam
